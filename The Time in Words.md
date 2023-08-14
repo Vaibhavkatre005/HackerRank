@@ -1,7 +1,7 @@
 https://www.hackerrank.com/challenges/the-time-in-words/problem?isFullScreen=false&utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign
 ![screencapture-hackerrank-challenges-the-time-in-words-problem-2023-08-14-22_58_00](https://github.com/Vaibhavkatre005/HackerRank/assets/67364186/065b79ce-4a5b-477e-8b56-8b3aef53ccee)
 
-'''
+````python
 def timeInWords(h, m):
     num_to_words = {
     1: 'one', 2: 'two', 3: 'three', 4: 'four', 5: 'five',
@@ -32,4 +32,6 @@ def timeInWords(h, m):
     else:
         timeinword=(num_to_words[h]+" o' clock")
     return timeinword
-'''
+````
+
+
